@@ -1,0 +1,16 @@
+/* styles.css */
+/* Style scrollbar for webkit-based browsers */
+.container::-webkit-scrollbar {
+    width: 8px; /* Adjust width as needed */
+  }
+  
+  .container::-webkit-scrollbar-track {
+    background: transparent; /* Semi-transparent track */
+  }
+  
+  .container::-webkit-scrollbar-thumb {
+    background: #f0f0f0; /* Lighter thumb color */
+    border-radius: 10px; /* Rounded thumb */
+    border: 2px solid rgba(255, 255, 255, 0.2); /* Soft border */
+  }
+  
